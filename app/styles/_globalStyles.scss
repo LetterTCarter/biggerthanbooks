@@ -1,8 +1,6 @@
 //globalStyles.scss for global style settings
-
 html {
   background-color: #0078ae;
-  z-index: -10;
 }
 
 .browserupgrade {
@@ -15,17 +13,14 @@ html {
 /* Space out content a bit */
 body {
   margin: 0 auto;
-  max-width: 960px;
+  max-width: 1020px;
+}
+
+.container {
+  background-color: #fff;
+  width: 100%;
 }
 
 .visuallyhidden {
   @include visuallyhidden;
-}
-
-
-/* Responsive: Portrait tablets and up */
-@media screen and (min-width: 768px) {
-  .container {
-    width: 100%;
-  }
 }

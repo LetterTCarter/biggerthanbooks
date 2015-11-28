@@ -1,27 +1,5 @@
 // footerStyles.scss
 
 .footer {
-    @include clearfix;
-    background-color: #ebebeb;
-    width: 100%;
-    margin: 0;
-    padding: 0.625em;
-    h2 {
-      @include visuallyhidden;
-    }
-    .logoBox {
-
-    }
-    .footerNav {
-
-    }
-    ul {
-      list-style-type: none;
-    }
-    li {
-      display: inline-block;
-      padding: 0.625em;
-      font-size: 0.8em;
-    }
 
 }
