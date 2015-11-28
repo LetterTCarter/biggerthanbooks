@@ -1,0 +1,27 @@
+// footerStyles.scss
+
+.footer {
+    @include clearfix;
+    h2 {
+      @include visuallyhidden;
+    }
+    .logoBox {
+      width: 150px;
+      height: 35px;
+      float: left
+    }
+    .footerNav {
+      float: right;
+    }
+    ul {
+      list-style-type: none;
+    }
+    li {
+      display: inline-block;
+      padding: 0.625em;
+      font-size: 0.8em;
+    }
+    p {
+      font-size: 0.8em;
+    }
+}

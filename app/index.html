@@ -29,10 +29,10 @@
 
     <div class="container">
       <div class="header">
-        <ul class="nav nav-pills pull-right">
-          <li class="active"><a href="#">Computer</a></li>
-          <li><a href="#">People</a></li>
-          <li><a href="#">POD</a></li>
+        <ul class="nav">
+          <li class="active"><a href="#">Computer</a></li> |
+          <li><a href="#">People</a></li> |
+          <li><a href="#">POD</a></li> |
           <li><a href="#">Digital</a></li> |
           <li><a href="#">Eng</a></li> /
           <li><a href="#">Esp</a></li>
@@ -41,36 +41,48 @@
         <p>A Service of High Plains Library District</p>
       </div>
 
-      <div class="jumbotron">
-        <div class="iconContainer medium">
-          <h2>Computer Services</h2>
+      <div class="mainContent">
+        <article class="iconContainer medium">
+          <h2 class="visuallyhidden">Computer Services</h2>
           <img src="images/computer-services-main.png" alt="Computer Services Icon Graphic"/>
           <p class="lead">Computer Services</p>
-        </div>
+        </article>
 
-        <div class="iconContainer medium">
-          <h2>Computer Services</h2>
-          <img src="images/computer-services-main.png" alt="Computer Services Icon Graphic"/>
-          <p class="lead">Computer Services</p>
-        </div>
+        <article class="iconContainer medium">
+          <h2 class="visuallyhidden">People Services</h2>
+          <img src="images/people-services-main.png" alt="Computer Services Icon Graphic"/>
+          <p class="lead">People Services</p>
+        </article>
 
-        <div class="iconContainer medium">
-          <h2>Computer Services</h2>
-          <img src="images/computer-services-main.png" alt="Computer Services Icon Graphic"/>
-          <p class="lead">Computer Services</p>
-        </div>
+        <article class="iconContainer large">
+          <h2 class="visuallyhidden">Place of Discovery</h2>
+          <img src="images/pod-main.png" alt="Computer Services Icon Graphic"/>
+          <p class="lead">Place of Discovery</p>
+        </article>
 
-        <div class="iconContainer medium">
-          <h2>Computer Services</h2>
-          <img src="images/computer-services-main.png" alt="Computer Services Icon Graphic"/>
-          <p class="lead">Computer Services</p>
-        </div>
-      </div>
-
+        <article class="iconContainer small">
+          <h2 class="visuallyhidden">Digital Library</h2>
+          <img src="images/digital-library-main.png" alt="Computer Services Icon Graphic"/>
+          <p class="lead">Digital Library</p>
+        </article>
       </div>
 
       <div class="footer">
-        <p>♥ from the Yeoman team</p>
+        <div class="logoBox">
+          <h2 class="visuallyhidden">High Plains Library District</h2>
+          <img src="images/hpld-logo.png" alt="High Plains Library District logo"/>
+        </div>
+
+        <div class="footerNav">
+          <ul>
+            <li>Facebook</li>
+            <li>Twitter</li>
+            <li>MyLibrary.us</li>
+            <li>About</li>
+            <li>Contact</li>
+          </ul>
+          <p>&copy; 2015 | High plains library district. All rights reserved.</p>
+        </div>
       </div>
     </div>
 
@@ -87,7 +99,11 @@
     <!-- build:js scripts/vendor.js -->
     <!-- bower:js -->
     <script src="/bower_components/jquery/dist/jquery.js"></script>
+    <script src="/bower_components/eventEmitter/EventEmitter.js"></script>
+    <script src="/bower_components/eventie/eventie.js"></script>
+    <script src="/bower_components/imagesloaded/imagesloaded.js"></script>
     <!-- endbower -->
+    <script src="/bower_components/imagefill/js/jquery-imagefill.js"></script>
     <!-- endbuild -->
 
     <!-- build:js scripts/plugins.js -->
