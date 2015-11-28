@@ -1,0 +1,10 @@
+// mainContent.scss
+
+.mainContent {
+  @include clearfix;
+  text-align: center;
+  width: 660px;
+  margin: 75px auto;
+  padding: 0;
+  z-index: -1;
+}

@@ -1,14 +1,14 @@
 // headerStyles.scss
 
 .header {
+  width: 100%;
   background-color: #ebebeb;
-  margin-bottom: 30px;
+  margin: 0;
   padding: 0.625em;
   h3 {
     font-family: "Domine", Georgia, serif;
     color: #0078ae;
-    margin-top: 0;
-    margin-bottom: 0;
+    margin: 0;
     line-height: 40px;
   }
   .uppercase {
