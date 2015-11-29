@@ -1,6 +1,13 @@
 //globalStyles.scss for global style settings
+@charset "UTF-8";
+
 html {
-  background-color: #0078ae;
+  box-sizing: border-box;
+  background-color: $hpld-blue;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
 }
 
 .browserupgrade {
@@ -16,11 +23,24 @@ body {
   max-width: 1020px;
 }
 
+a {
+  text-decoration: none;
+}
+
 .container {
   background-color: #fff;
   width: 100%;
+  margin: 0 auto;
 }
 
 .visuallyhidden {
-  @include visuallyhidden;
+  visibility: hidden;
+}
+
+.current {
+  visibility: visible;
+}
+
+.previous {
+  visibility: hidden;
 }

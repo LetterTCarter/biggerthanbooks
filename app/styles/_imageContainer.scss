@@ -1,4 +1,4 @@
-//iconCotainer.scss for main page tiles
+//imageCotainer.scss for main page tiles
 
 .imageContainer {
   width: 100%;
@@ -18,6 +18,10 @@
     position: absolute;
     left: 0.625em;
     bottom: 0;
+    font-family: $font-stack-sanserif;
+    font-weight: normal;
+    font-size: 1em;
+    text-transform: uppercase;
     margin: 0;
     padding-bottom: 0.625em;
   }
