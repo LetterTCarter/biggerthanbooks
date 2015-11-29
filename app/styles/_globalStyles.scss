@@ -39,10 +39,10 @@ a {
   @include visuallyhidden;
 }
 
-.current {
+.visible {
   visibility: visible;
 }
 
-.previous {
+.hidden {
   visibility: hidden;
 }

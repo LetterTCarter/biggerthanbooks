@@ -1,12 +1,11 @@
-console.log('\'Allo \'Allo!');
-
 $(function (){
   console.log("Document is ready for action");
 
-  $('.imageContainer').imagefill();
   // image stretches to fill container
+  $('.imageContainer').imagefill();
 
   //hide the rollover states
-  $('.over').hide();
+  //$('#computerOver').hide();
+
 
 });
