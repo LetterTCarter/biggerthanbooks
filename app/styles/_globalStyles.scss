@@ -25,6 +25,8 @@ body {
 
 a {
   text-decoration: none;
+  margin: 0;
+  padding: 0;
 }
 
 .container {
@@ -34,7 +36,7 @@ a {
 }
 
 .visuallyhidden {
-  visibility: hidden;
+  @include visuallyhidden;
 }
 
 .current {

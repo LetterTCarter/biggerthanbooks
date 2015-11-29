@@ -1,4 +1,5 @@
 // footerStyles.scss
+
 .footer {
   @include clearfix;
   width: 100%;
@@ -8,7 +9,12 @@
   .logoBox {
     float: left;
     padding-right: 0.625em;
+    margin: 0;
     img {
+      margin: 0;
+      padding: 0;
+    }
+    i a {
       margin: 0;
       padding: 0;
     }
