@@ -1,7 +1,8 @@
-$(function (){
-  console.log("Document is ready for action");
+/*global $*/
+'use strict';
 
-  // image stretches to fill container
+$(function (){
+    // image stretches to fill container
   $('.imageContainer').imagefill();
 
   //hide the rollover states

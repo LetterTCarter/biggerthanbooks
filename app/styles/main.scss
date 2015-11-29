@@ -8,10 +8,6 @@ $icon-font-path: '../fonts/';
 //font-awesome
 @import "bower_components/font-awesome/scss/font-awesome.scss";
 
-// import Google fonts
-@import url(https://fonts.googleapis.com/css?family=Domine:400,700);
-@import url(https://fonts.googleapis.com/css?family=Lato:400,700);
-
 // main.scss
 @import "mixins";
 @import "variables";
