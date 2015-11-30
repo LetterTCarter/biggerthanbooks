@@ -6,7 +6,7 @@ $(function (){
   $('.imageContainer').imagefill();
 
   // breadcrumbs plugin
-  $("#breadcrumbs").rcrumbs();
+  $('#breadcrumbs').rcrumbs();
 
   //hide the rollover states
   //$('#computerOver').hide();
