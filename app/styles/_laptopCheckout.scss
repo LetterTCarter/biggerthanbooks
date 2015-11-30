@@ -23,8 +23,7 @@
     font-size: 2.25em;
     margin: 30px 0;
   }
-  div.locationNav {
-    @include clearfix;
+  .locationNav {
     margin: 0;
     padding: 0;
   }
@@ -34,6 +33,10 @@
     list-style-type: none;
     margin: 0;
     padding: 0;
+  }
+  ul li {
+    margin: 0;
+    padding: 10px 0;
   }
   li a {
     font-family: $font-stack-sanserif;
